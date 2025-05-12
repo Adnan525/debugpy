@@ -1,6 +1,6 @@
 import debugpy
-debugpy.listen(("0.0.0.0", 5678))
 print("Waiting for debugger to attach...")
+debugpy.listen(("0.0.0.0", 5678))
 debugpy.wait_for_client()
 print("Debugger attached!")
 
